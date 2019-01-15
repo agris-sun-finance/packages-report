@@ -7,7 +7,7 @@ library(tidyverse)
 library(magrittr)
 library(here)
 
-installed_pck<-installed.packages()%>%as.data.frame(,stringsAsFactors=F)
+installed_pck<-installed.packages()%>%as.data.frame(stringsAsFactors=F)
 
 ## optional: select just some of the variables, such as
 ##   * Package
